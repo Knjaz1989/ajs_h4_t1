@@ -1,0 +1,32 @@
+{
+  "name": "pure_functions",
+  "version": "1.0.0",
+  "description": "task 1",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Knjaz1989/ajs_h4_t1.git"
+  },
+  "author": "Igor Sverchkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knjaz1989/ajs_h4_t1/issues"
+  },
+  "homepage": "https://github.com/Knjaz1989/ajs_h4_t1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-jest": "^27.6.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.3"
+  }
+}
